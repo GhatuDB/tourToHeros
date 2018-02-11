@@ -11,6 +11,8 @@ import { MessageService }       from './message.service';
 import { MessagesComponent }    from './messages/messages.component';
 
 import { AppRoutingModule }     from './app-routing.module';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { TemplateFormComponent } from './template-form/template-form.component';
 
 @NgModule({
   imports: [
@@ -23,7 +25,9 @@ import { AppRoutingModule }     from './app-routing.module';
     DashboardComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    ReactiveFormComponent,
+    TemplateFormComponent
   ],
   providers: [ HeroService, MessageService ],
   bootstrap: [ AppComponent ]
